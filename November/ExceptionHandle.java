@@ -11,9 +11,6 @@ public class ExceptionHandle {
 			Y = scan.nextInt();
 			
 			try {
-				if ( Y == 0 )
-					throw new ArithmeticException("Division by 0");
-				
 					Z = X / Y;
 					System.out.println("Result of division : " + Z);
 			}
