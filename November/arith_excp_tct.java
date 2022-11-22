@@ -27,6 +27,7 @@ public class arith_excp_tct
 				System.out.println("Exiting from program\n");
 				break;
 			}
+			System.out.println("\n");
 		}
 	}
 }
