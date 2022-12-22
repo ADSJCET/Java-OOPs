@@ -5,7 +5,8 @@ public class calc_gui extends JFrame implements ActionListener {
 	JFrame jf;
 	JTextField t;
 	String s0,s1,s2;
-	calc_gui(){
+	calc_gui()
+	{
 		s0=s1=s2="";
 		jf=new JFrame("Calculator");
 		t=new JTextField(10);
